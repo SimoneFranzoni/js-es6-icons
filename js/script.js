@@ -122,8 +122,27 @@ function generateGrill(){
 }
 
 function createBox (font) {
+
+    const grill = document.querySelector('.grill');
+    let prevcontent = grill.innerHTML;
     
+    const {name, prefix, type, family, color} = font;
+
+    prevcontent += 
+    ` 
+    <div class="col">
+        <div class="box">
+            <i class="fa-solid fa-cat"></i>
+            <div>${name}</div>
+        </div>   
+    </div>
+  `;
+
+  
+    grill.innerHTML= prevcontent;
 }
+
+
 
 
 
