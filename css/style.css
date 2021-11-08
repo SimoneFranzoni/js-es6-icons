@@ -7,3 +7,9 @@ h1{
     color: lightskyblue;
 }
 
+.box{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    margin: 20px;
+}

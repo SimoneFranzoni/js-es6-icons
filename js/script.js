@@ -131,7 +131,7 @@ function createBox (font) {
     prevcontent += 
     ` 
     <div class="col">
-        <div class="box">
+        <div class="box d-flex justify-content-center flex-column align-items-center">
             <i class="fa-solid fa-cat"></i>
             <div>${name}</div>
         </div>   
